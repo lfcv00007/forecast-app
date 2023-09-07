@@ -1,0 +1,29 @@
+@startuml Forecast App
+class ForecastApp
+class Forecast {
+    city: String
+}
+class WeatherForecast {
+    date: Date
+    temp: Float
+    maxTemp: Float
+    minTemp: Float
+    precipitation: Float
+    humidity: Float
+    windSpeed: Float
+}
+enum WeatherCondition {
+    CLEAR
+    RAIN
+    CLOUDY
+    FOG
+    SNOW
+    STORM
+    HAIL
+    WINDY
+}
+
+ForecastApp *--> "1-n" Forecast
+Forecast *--> "1-n" WeatherForecast
+WeatherForecast --> WeatherCondition 
+@enduml
