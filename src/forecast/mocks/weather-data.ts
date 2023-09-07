@@ -2,7 +2,7 @@ import { WeatherConditionEnum } from '../enums/weather-condition.enum';
 
 const WEATHER_DATA = [
     {
-        city: 'TestCity',
+        city: 'testcity',
         date: new Date().toLocaleDateString('es-ES'),
         temp: 12,
         maxTemp: 15,
@@ -13,7 +13,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.RAIN,
     },
     {
-        city: 'TestCity',
+        city: 'testcity',
         date: new Date().toLocaleDateString('es-ES'),
         temp: 5,
         maxTemp: 10,
@@ -24,7 +24,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.CLEAR,
     },
     {
-        city: 'Madrid',
+        city: 'madrid',
         date: new Date().toLocaleDateString('es-ES'),
         temp: 28,
         maxTemp: 35,
@@ -35,7 +35,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.CLEAR,
     },
     {
-        city: 'Madrid',
+        city: 'madrid',
         date: new Date(new Date().getTime() + 2 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 26,
         maxTemp: 30,
@@ -46,7 +46,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.CLOUDY,
     },
     {
-        city: 'Madrid',
+        city: 'madrid',
         date: new Date(new Date().getTime() + 3 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 28,
         maxTemp: 31,
@@ -57,7 +57,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.WINDY,
     },
     {
-        city: 'Madrid',
+        city: 'madrid',
         date: new Date(new Date().getTime() + 4 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 26,
         maxTemp: 29,
@@ -68,7 +68,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.CLEAR,
     },
     {
-        city: 'Madrid',
+        city: 'madrid',
         date: new Date(new Date().getTime() + 5 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 24,
         maxTemp: 29,
@@ -79,7 +79,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.RAIN,
     },
     {
-        city: 'Málaga',
+        city: 'malaga',
         date: new Date().toLocaleDateString('es-ES'),
         temp: 28,
         maxTemp: 29,
@@ -90,7 +90,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.WINDY,
     },
     {
-        city: 'Málaga',
+        city: 'malaga',
         date: new Date(new Date().getTime() + 2 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 26,
         maxTemp: 28,
@@ -101,7 +101,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.CLOUDY,
     },
     {
-        city: 'Málaga',
+        city: 'malaga',
         date: new Date(new Date().getTime() + 3 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 28,
         maxTemp: 31,
@@ -112,7 +112,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.WINDY,
     },
     {
-        city: 'Málaga',
+        city: 'malaga',
         date: new Date(new Date().getTime() + 4 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 27,
         maxTemp: 27,
@@ -123,7 +123,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.WINDY,
     },
     {
-        city: 'Málaga',
+        city: 'malaga',
         date: new Date(new Date().getTime() + 5 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 29,
         maxTemp: 30,
@@ -134,7 +134,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.RAIN,
     },
     {
-        city: 'Granada',
+        city: 'granada',
         date: new Date().toLocaleDateString('es-ES'),
         temp: 32,
         maxTemp: 33,
@@ -145,7 +145,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.CLEAR,
     },
     {
-        city: 'Granada',
+        city: 'granada',
         date: new Date(new Date().getTime() + 2 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 34,
         maxTemp: 35,
@@ -156,7 +156,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.CLEAR,
     },
     {
-        city: 'Granada',
+        city: 'granada',
         date: new Date(new Date().getTime() + 3 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 33,
         maxTemp: 31,
@@ -167,7 +167,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.CLEAR,
     },
     {
-        city: 'Granada',
+        city: 'granada',
         date: new Date(new Date().getTime() + 4 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 32,
         maxTemp: 33,
@@ -178,7 +178,7 @@ const WEATHER_DATA = [
         weatherCondition: WeatherConditionEnum.CLEAR,
     },
     {
-        city: 'Granada',
+        city: 'granada',
         date: new Date(new Date().getTime() + 5 * 24 * 60 * 60 * 1000).toLocaleDateString('es-ES'),
         temp: 27,
         maxTemp: 30,
