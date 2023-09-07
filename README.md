@@ -5,7 +5,7 @@
 ## Domain UML
 
 - UML with main domain vocabulary.
-![Forecast Domain](../docs/Forecastapp.png)
+![Forecast Domain](./docs/Forecastapp.png)
 
 ## OpenAPI documentation
 
