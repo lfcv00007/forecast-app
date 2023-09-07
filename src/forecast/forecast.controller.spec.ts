@@ -16,7 +16,7 @@ describe('AppController', () => {
 
     describe('root', () => {
         it('Should return an object with TestCity mock forecast data.', () => {
-            expect(forecastController.getCityForecast('TestCity')).toEqual({
+            expect(forecastController.getCityForecastAPI('TestCity')).toEqual({
                 city: 'TestCity',
                 currentWeather: {
                     city: 'TestCity',
@@ -56,7 +56,7 @@ describe('AppController', () => {
         });
 
         it('Average temperature calculated from TestCity mock data.', () => {
-            expect(forecastController.getCityForecast('TestCity').avgTemp).toEqual(8.5);
+            expect(forecastController.getCityForecastAPI('TestCity').avgTemp).toEqual(8.5);
         });
     });
 });
